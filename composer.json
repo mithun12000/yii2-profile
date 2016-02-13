@@ -1,0 +1,28 @@
+{
+  "name": "mithun12000/yii2-profile",
+  "description": "User profile modules for Yii2",
+  "keywords": ["user","profile", "yii2"],
+  "homepage": "https://github.com/mithun12000/yii2-profile",
+  "type": "yii2-extension",
+  "license": "GNU",
+  "authors": [
+    {
+      "name": "Mithun Mandal",
+      "email": "mithun12000@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/mithun12000/yii2-profile/issues",
+    "source": "https://github.com/mithun12000/yii2-profile"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "yii2-usermanage":"*"
+  },
+  "autoload": {
+    "psr-4": {
+      "mithun\\profile\\": "src/"
+    }
+  }
+}
